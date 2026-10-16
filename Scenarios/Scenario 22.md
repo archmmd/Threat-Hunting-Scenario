@@ -1,3 +1,7 @@
+PsExec و ایجاد سرویس
+روی یک Server، ایجاد سرویس جدید و اجرای Process مشکوک هم‌زمان با اتصال SMB از یک Workstation دیده می‌شود.
+چه شواهدی برای تأیید یا رد Lateral Movement لازم داری؟
+
 برای تأیید یا رد Lateral Movement در این سناریو، باید یک **زنجیره شواهد** از Source (Workstation) تا Destination (Server) بسازیم. صرفاً دیدن همزمانی (Time Proximity) بین SMB Connection و Service Creation **کافی نیست**؛ باید **علیت (Causation)** را از طریق **Process Execution** و **Artifacts** تأیید کنیم.
 
 ### 1. شواهد ضروری برای تأیید (Confirmation)
